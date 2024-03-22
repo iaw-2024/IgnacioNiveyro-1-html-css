@@ -1,0 +1,29 @@
+/* Importa las funciones base de Tailwind */
+@import "tailwindcss/base";
+
+/* Importa los estilos componentes de Tailwind */
+@import "tailwindcss/components";
+
+/* Importa las utilidades de Tailwind */
+@import "tailwindcss/utilities";
+
+/* Agrega tus estilos personalizados debajo de las importaciones de Tailwind */
+
+/* Estilos personalizados para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #588c7e;
+}
+
+thead {
+  background-color: #588c7e;
+  font-weight: bold;
+  text-transform: uppercase;
+}

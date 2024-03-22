@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <!DOCTYPE html>
+    <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Formulario con Tailwind CSS</title>
+      <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+      <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container bg-gray-100">
+        <div class="form-container bg-white p-8 rounded shadow-md">
+          <h2 class="text-xl font-semibold mb-4">Formulario</h2>
+          <form>
+            <div class="mb-4">
+              <label for="nombre" class="block text-sm font-medium text-gray-700">Nombre</label>
+              <input type="text" id="nombre" name="nombre" class="input-field">
+            </div>
+            <div class="mb-4">
+              <label for="apellido" class="block text-sm font-medium text-gray-700">Apellido</label>
+              <input type="text" id="apellido" name="apellido" class="input-field">
+            </div>
+            <div class="flex justify-between">
+              <button type="submit" class="submit-btn">Enviar</button>
+              <button type="button" class="edit-btn">Editar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </body>
+    </html>
+    
+</body>
+</html>
